@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="web.achtelik.wstouchdriver">
+
+    <application android:label="@string/app_name">
+        <uses-library android:name="com.google.android.things" />
+
+        <service android:name="web.achtelik.wstouchdriver.TouchscreenDriverService"/>
+
+    </application>
+
+</manifest>
